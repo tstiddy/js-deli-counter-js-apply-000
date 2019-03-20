@@ -7,6 +7,13 @@ function takeANumber(line, name) {
   return output;
 }
 
+function storeNumber(line) {
+  var numArray = [];
+  
+  line.push(numArray[]);
+  return numArray
+}
+
 function nowServing(currentLine) {
   var output;
   if(currentLine.length === 0) { //checks to see if line is empty
